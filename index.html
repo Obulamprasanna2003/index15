@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url("n4.jpg");
+        background-size: cover;
+        }
+        button:hover {
+        cursor: pointer;
+        background-color: rgb(6, 215, 6);
+      }
+      input[type="submit"]{
+    color: aliceblue;
+    background-color:green;
+    cursor: pointer;
+
+}
+input[type="reset"]{
+    color: aliceblue;
+    background-color:blue;
+    cursor: pointer;
+      }
+      input[type="submit"]:hover{
+        background-color: lawngreen;
+      }
+      input[type="reset"]:hover{
+        background-color: lightblue;
+      }
+      h1{
+padding: 18px 0px 0px 0px;
+        text-shadow: 2px 2px 3px rgb(15, 148, 226), 2px 2px 10px rgb(12, 29, 222);
+}
+img{
+    border-radius: 100px;
+}
+.container{
+    height: 1200px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+input:hover{
+    cursor: pointer;
+}
+
+      
+    </style>
+</head>
+<body>
+    <form>
+        <center>
+        <div class="container">
+            
+                <h1>REGISTRATION FORM</h1>
+                
+
+                <img src="user1 - Copy.jpg" width="110" height="110"><br><br>
+                <div class="k">
+                    <label for="name"><b>First Name:</b></label>
+                    <Input type="text" id="name" class name="name" placeholder="First Name"><br><br>
+                        <label for="name"><b>Last Name:</b></label>
+                    <Input type="text" id="name" class name="name"placeholder="Last Name"><br><br>
+                    </div> 
+                   
+                    
+                     <img src="user.png" width="30" height="20">
+                    <Input type="text" id="name" placeholder="Username"><br><br>
+
+                    <img src="email.jpg" width="30" height="20">
+                    <Input type="email" id="email" placeholder="Email"><br><br>
+
+                        <img src="unlock.png" width="30" height="20">   
+                        <Input type="password" id="password" placeholder="Password"><br><br>
+                        
+                        
+
+                        <label><h3>Gender:</h3></label>
+                        <input  type="radio" id="M" name="gender" value="M">Male
+                        <input  type="radio" id="F" name="gender" value="F">Female
+                         <input type="radio" id="OTHERS" name="gender" value="OTHERS">Others
+                        <br></br>
+
+                        <form>
+                            <label for="birthdaytime"><b>Birthday (Date and time):</b></label> 
+                            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br></br>
+                         </form>
+    
+    
+                         <label for="languages"><h3>Languages:</h3></label>
+                         <input type="checkbox" id="subject1" name=" subject1" value="Tamil"> 
+                         <label for=" subject1"> I know Tamil </label><br> 
+                         <input type="checkbox" id=" subject2" name=" subject2" value="Telugu"> 
+                         <label for=" subject2"> I know Telugu</label><br> 
+                         <input type="checkbox" id=" subject3" name=" subject3" value="English "> 
+                         <label for=" subject3"> I know Telugu</label><br></br>
+    
+    
+                        <label for="date of joining"><b>Date of joining:</b></label> 
+                        <input type="date" id="date of joining" name="date og joining"> <br></br>
+
+                        <label for="myfile"><h3>Certificate:</h3></label>
+                      <input type="file" id="myfile" name="myfile"> <br></br>
+
+                      <img src="tele.jpg" width="30" height="20">
+                <Input type="tel" id="tel.number" placeholder="Tel.Number"><br><br>
+
+                    <label><h3>Select your favorite Web Language:</h3></label>
+                   <input type="radio" id="html" name="fav_language" value="HTML"> 
+                    <label for="html">HTML</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS"> 
+                    <label for="css">CSS</label>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript"> 
+                    <label for="javascript">JavaScript</label><br>
+
+                    
+                    <label for="favcolor"><h3>Select your favoritecolor:</h3></label>
+                    
+                    <input type="color" id="favcolor" name="favcolor"><br></br>
+
+                    <div><button type="OK">OK</button></div> 
+                    <br>
+                    <input type="submit" value="Submit"> 
+                    <input type="reset"> 
+                  
+             </center>
+    </div>
+    </form>
+             
+</body>
+</html>
